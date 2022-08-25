@@ -1,0 +1,22 @@
+{
+  "name": "myfirstservernode",
+  "version": "1.0.0",
+  "description": "servidor con nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejsdev/myFirstServerNode.git"
+  },
+  "author": "ejsdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ejsdev/myFirstServerNode/issues"
+  },
+  "homepage": "https://github.com/ejsdev/myFirstServerNode#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

@@ -1,4 +1,3 @@
-/*
 const http = require("http");
 
 const handleServer = function(req, res){
@@ -11,17 +10,4 @@ const server = http.createServer(handleServer);
 
 server.listen(3000, function(){
     console.log('Escucha de servidor en puerto 3000');
-}); 
-*/
-const express =require('express');
-const server =express();
-
-server.get('/', function(req, res){
-    res.send('<h1>Node + Express</h1>');
-    res.end();
 });
-
-
-server.listen(3000, () => {
-        console.log('Servidor en puerto 3000');
-    });
