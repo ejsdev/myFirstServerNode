@@ -1,4 +1,9 @@
 modulos necesarios
-> npm
->expressjs
+> npm 
+> expressjs
+> nodemon 
+> morgan (middleware)
+> ejs (motor de plantillas)
+
+
 
